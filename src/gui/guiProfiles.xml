@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUIProfiles>
+    <!-- Section container -->
+    <Profile name="ecSection" extends="baseReference" with="anchorTopLeft">
+    </Profile>
+
+    <!-- Section header (e.g. "Supplyable Materials") -->
+    <Profile name="ecColumnHeader" extends="baseReference" with="anchorTopLeft">
+        <textBold value="true"/>
+        <textSize value="20px"/>
+        <textAlignment value="left"/>
+        <textColor value="$preset_fs25_colorMainHighlight"/>
+    </Profile>
+
+    <!-- Field label (left side) -->
+    <Profile name="ecFieldLabel" extends="baseReference" with="anchorTopLeft">
+        <textBold value="false"/>
+        <textSize value="15px"/>
+        <textAlignment value="left"/>
+        <textVerticalAlignment value="middle"/>
+        <textColor value="$preset_fs25_colorMainLight"/>
+    </Profile>
+
+    <!-- Field value (right of label) -->
+    <Profile name="ecFieldValue" extends="baseReference" with="anchorTopLeft">
+        <textBold value="false"/>
+        <textSize value="17px"/>
+        <textAlignment value="left"/>
+        <textColor value="$preset_fs25_colorMainLight"/>
+    </Profile>
+
+    <!-- Hint text below section header -->
+    <Profile name="ecHintLabel" extends="baseReference" with="anchorTopLeft">
+        <textBold value="false"/>
+        <textSize value="15px"/>
+        <textAlignment value="left"/>
+        <textColor value="0.7 0.7 0.7 1"/>
+    </Profile>
+
+    <!-- Material row label -->
+    <Profile name="ecMatLabel" extends="baseReference" with="anchorTopLeft">
+        <textBold value="false"/>
+        <textSize value="15px"/>
+        <textAlignment value="left"/>
+        <textColor value="$preset_fs25_colorMainLight"/>
+    </Profile>
+
+    <!-- Material row value (delivered / total) -->
+    <Profile name="ecMatValue" extends="baseReference" with="anchorTopLeft">
+        <textBold value="false"/>
+        <textSize value="15px"/>
+        <textAlignment value="right"/>
+        <textColor value="$preset_fs25_colorMainLight"/>
+    </Profile>
+</GUIProfiles>
