@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <translationContributors>Ziuta</translationContributors>
+    <texts>
+        <text name="ec_constructionSite" text="Plac budowy"/>
+        <text name="ec_action_viewConstruction" text="Widok budowy"/>
+        <text name="ec_phase" text="Etap %d z %d"/>
+        <text name="ec_mode_automatic" text="Automatyczny"/>
+        <text name="ec_mode_paused" text="Wstrzymany"/>
+        <text name="ec_deposit" text="Depozyt"/>
+        <text name="ec_labourCost" text="Wynagrodzenie (za etap)"/>
+        <text name="ec_phaseCosts" text="Koszt etapu"/>
+        <text name="ec_materialSaved" text="Oszczędności materiałowe"/>
+        <text name="ec_totalPaid" text="Łącznie zapłacono"/>
+        <text name="ec_totalRemaining" text="Łącznie pozostało"/>
+        <text name="ec_materialsSupplyable" text="Materiały wymagane"/>
+        <text name="ec_materialsSupplyHint" text="Aby dostarczyć materiały, przynieś je do płotu."/>
+        <text name="ec_allMaterialsSupplied" text="Wszystkie materiały zostały dostarczone."/>
+        <text name="ec_resourcesDelivered" text="Dostarczone zasoby"/>
+        <text name="ec_progress" text="Postęp"/>
+        <text name="ec_cancel" text="Anuluj projekt"/>
+        <text name="ec_cancelConfirm" text="Anulować ten projekt budowy? Otrzymasz %d%% zwrotu kwoty zapłaconej do tej pory."/>
+        <text name="ec_cancelled" text="Projekt budowy anulowany. Zwrot: %s"/>
+        <text name="ec_completed" text="Budowa zakończona: %s"/>
+        <text name="ec_phaseAdvanced" text="Etap budowy %d zakończony dla %s"/>
+        <text name="ec_paused" text="Budowa wstrzymana (niewystarczające środki)"/>
+        <text name="ec_switchMode" text="Przełącz tryb"/>
+        <text name="ec_pauseProject" text="WSTRZYMAJ PROJEKT"/>
+        <text name="ec_continueProject" text="KONTYNUUJ PROJEKT"/>
+        <text name="ec_modeChanged" text="Tryb budowy zmieniony na: %s"/>
+        <text name="ec_close" text="Zamknij"/>
+        <text name="ec_buildingName" text="Budynek"/>
+        <text name="ec_monthsRemaining" text="Pozostałe miesiące"/>
+        <text name="ec_status_active" text="Aktywny"/>
+        <text name="ec_status_paused" text="Wstrzymany"/>
+        <text name="ec_setting_disabled" text="Wyłączony"/>
+        <text name="ec_setting_enabled" text="Włączony"/>
+        <text name="setting_ec_section" text="Everything Constructable"/>
+        <text name="setting_ec_constructionEnabled" text="Projekty budowlane"/>
+        <text name="setting_ec_constructionEnabled_tooltip" text="Po włączeniu tej opcji umieszczanie budynków powoduje uruchomienie wieloetapowego projektu budowlanego. Po wyłączeniu budynki są gotowe natychmiast, tak jak w podstawowej wersji gry."/>
+        <text name="setting_ec_labourFraction" text="Współczynnik kosztów pracy"/>
+        <text name="setting_ec_labourFraction_tooltip" text="Odsetek całkowitych kosztów budowy przypadający na wynagrodzenie. Z kwoty tej odlicza się zaliczkę, a pozostała część jest wypłacana w poszczególnych etapach budowy. Wyższe wartości oznaczają mniejsze zapotrzebowanie na materiały, ale większe bezpośrednie wydatki gotówkowe."/>
+        <text name="setting_ec_materialSupplyBonus" text="Premia za dostawę materiałów"/>
+        <text name="setting_ec_materialSupplyBonus_tooltip" text="Premia przysługuje w przypadku samodzielnego dostarczenia materiałów. Wyższa premia oznacza, że do pokrycia kosztów materiałów potrzeba mniej materiałów."/>
+        <text name="ec_cannotDeleteFence" text="Ogrodzeń budowlanych nie można usuwać w trakcie trwania budowy."/>
+        <text name="permission_ec_ecSettings" text="Zmiana ustawienia budowania"/>
+        <text name="ec_brush_initial" text="wstępny"/>
+        <text name="ec_brush_duration" text="Czas trwania:"/>
+        <text name="ec_brush_months" text="%d mies."/>
+        <text name="setting_ec_resourceWeight_BOARDS" text="Udział deski w budżecie"/>
+        <text name="setting_ec_resourceWeight_BOARDS_tooltip" text="Jaka część budżetu na materiały jest pokrywana przez Deski. Wyższe wartości oznaczają, że większa część całkowitego kosztu jest pokrywana przez Deski. Ustaw na 0, aby wykluczyć. Jeśli wszystkie wartości wynoszą 0, budżet jest dzielony równo."/>
+        <text name="setting_ec_resourceWeight_PLANKS" text="Udział długich desek w budżecie"/>
+        <text name="setting_ec_resourceWeight_PLANKS_tooltip" text="Jaka część budżetu na materiały jest pokrywana przez Deski długie. Wyższe wartości oznaczają, że większa część całkowitego kosztu jest pokrywana przez Deski długie. Ustaw na 0, aby wykluczyć. Jeśli wszystkie wartości wynoszą 0, budżet jest dzielony równo."/>
+        <text name="setting_ec_resourceWeight_WOODBEAM" text="Udział drewnianych belek w budżecie"/>
+        <text name="setting_ec_resourceWeight_WOODBEAM_tooltip" text="Jaka część budżetu na materiały jest pokrywana przez Belki drewniane. Wyższe wartości oznaczają, że większa część całkowitego kosztu jest pokrywana przez Belki drewniane. Ustaw na 0, aby wykluczyć. Jeśli wszystkie wartości wynoszą 0, budżet jest dzielony równo."/>
+        <text name="setting_ec_resourceWeight_CEMENT" text="Udział cementu w budżecie"/>
+        <text name="setting_ec_resourceWeight_CEMENT_tooltip" text="Jaka część budżetu na materiały jest pokrywana przez Cement. Wyższe wartości oznaczają, że większa część całkowitego kosztu jest pokrywana przez Cement. Ustaw na 0, aby wykluczyć. Jeśli wszystkie wartości wynoszą 0, budżet jest dzielony równo."/>
+        <text name="setting_ec_resourceWeight_PREFABWALL" text="Udział prefabrykowanych ścian w budżecie"/>
+        <text name="setting_ec_resourceWeight_PREFABWALL_tooltip" text="Jaka część budżetu na materiały jest pokrywana przez Ściany prefabrykowane. Wyższe wartości oznaczają, że większa część całkowitego kosztu jest pokrywana przez Ściany prefabrykowane. Ustaw na 0, aby wykluczyć. Jeśli wszystkie wartości wynoszą 0, budżet jest dzielony równo."/>
+        <text name="setting_ec_resourceWeight_CEMENTBRICKS" text="Udział cegieł w budżecie"/>
+        <text name="setting_ec_resourceWeight_CEMENTBRICKS_tooltip" text="Jaka część budżetu na materiały jest pokrywana przez Cegły betonowe. Wyższe wartości oznaczają, że większa część całkowitego kosztu jest pokrywana przez Cegły betonowe. Ustaw na 0, aby wykluczyć. Jeśli wszystkie wartości wynoszą 0, budżet jest dzielony równo."/>
+        <text name="setting_ec_resourceWeight_ROOFPLATES" text="Udział dachówek w budżecie"/>
+        <text name="setting_ec_resourceWeight_ROOFPLATES_tooltip" text="Jaka część budżetu na materiały jest pokrywana przez Płyty dachowe. Wyższe wartości oznaczają, że większa część całkowitego kosztu jest pokrywana przez Płyty dachowe. Ustaw na 0, aby wykluczyć. Jeśli wszystkie wartości wynoszą 0, budżet jest dzielony równo."/>
+        <text name="setting_ec_resourceWeight_WATER" text="Udział wody w budżecie"/>
+        <text name="setting_ec_resourceWeight_WATER_tooltip" text="Jaka część budżetu na materiały jest pokrywana przez wodę. Wyższe wartości oznaczają, że większa część całkowitego kosztu jest pokrywana przez wodę. Ustaw na 0, aby wykluczyć. Jeśli wszystkie wartości wynoszą 0, budżet jest dzielony równo."/>
+        <text name="setting_ec_resourceWeight_CONSTRUCTIONGRAVEL" text="Udział żwiru budowlanego w budżecie"/>
+        <text name="setting_ec_resourceWeight_CONSTRUCTIONGRAVEL_tooltip" text="Jaka część budżetu na materiały jest pokrywana przez żwir budowlany. Wyższe wartości oznaczają, że większa część całkowitego kosztu jest pokrywana przez ten materiał. Ustaw na 0, aby wykluczyć. Jeśli wszystkie wartości wynoszą 0, budżet jest dzielony równo."/>
+        <text name="setting_ec_resourceWeight_GRAVEL" text="Udział żwiru w budżecie"/>
+        <text name="setting_ec_resourceWeight_GRAVEL_tooltip" text="Jaka część budżetu na materiały jest pokrywana przez żwir. Wyższe wartości oznaczają, że większa część całkowitego kosztu jest pokrywana przez żwir. Ustaw na 0, aby wykluczyć. Jeśli wszystkie wartości wynoszą 0, budżet jest dzielony równo."/>
+        <text name="setting_ec_resourceWeight_STONE" text="Udział kamieni w budżecie"/>
+        <text name="setting_ec_resourceWeight_STONE_tooltip" text="Jaka część budżetu na materiały jest pokrywana przez kamienie. Wyższe wartości oznaczają, że większa część całkowitego kosztu jest pokrywana przez kamienie. Ustaw na 0, aby wykluczyć. Jeśli wszystkie wartości wynoszą 0, budżet jest dzielony równo."/>
+        <text name="setting_ec_resourceWeight_CRUSHEDSTONE" text="Udział kruszywa łamanego w budżecie"/>
+        <text name="setting_ec_resourceWeight_CRUSHEDSTONE_tooltip" text="Jaka część budżetu na materiały jest pokrywana przez kruszywo łamane. Wyższe wartości oznaczają, że większa część całkowitego kosztu jest pokrywana przez ten materiał. Ustaw na 0, aby wykluczyć. Jeśli wszystkie wartości wynoszą 0, budżet jest dzielony równo."/>
+        <text name="ec_fillType_WATER" text="Woda"/>
+        <text name="ec_fillType_CONSTRUCTIONGRAVEL" text="Żwir budowlany"/>
+        <text name="ec_fillType_GRAVEL" text="Żwir"/>
+        <text name="ec_fillType_CRUSHEDSTONE" text="Kruszywo łamane"/>
+        <text name="ec_fillType_STONE" text="Kamienie"/>
+    </texts>
+</l10n>

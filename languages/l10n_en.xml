@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <translationContributors/>
+    <texts>
+        <text name="ec_constructionSite" text="Construction Site"/>
+        <text name="ec_action_viewConstruction" text="View Construction"/>
+        <text name="ec_phase" text="Phase %d of %d"/>
+        <text name="ec_mode_automatic" text="Automatic"/>
+        <text name="ec_mode_paused" text="Paused"/>
+        <text name="ec_deposit" text="Deposit"/>
+        <text name="ec_labourCost" text="Labour (per phase)"/>
+        <text name="ec_phaseCosts" text="Phase Costs"/>
+        <text name="ec_materialSaved" text="Material Savings"/>
+        <text name="ec_totalPaid" text="Total Paid"/>
+        <text name="ec_totalRemaining" text="Total Remaining"/>
+        <text name="ec_materialsSupplyable" text="Supplyable Materials"/>
+        <text name="ec_materialsSupplyHint" text="To supply materials, bring them to the fence."/>
+        <text name="ec_allMaterialsSupplied" text="All materials have been supplied."/>
+        <text name="ec_resourcesDelivered" text="Delivered"/>
+        <text name="ec_progress" text="Progress"/>
+        <text name="ec_cancel" text="Cancel Project"/>
+        <text name="ec_cancelConfirm" text="Cancel this construction project? You will receive a %d%% refund of the amount paid so far."/>
+        <text name="ec_cancelled" text="Construction project cancelled. Refund: %s"/>
+        <text name="ec_completed" text="Construction complete: %s"/>
+        <text name="ec_phaseAdvanced" text="Construction phase %d complete for %s"/>
+        <text name="ec_paused" text="Construction paused (insufficient funds)"/>
+        <text name="ec_switchMode" text="Switch Mode"/>
+        <text name="ec_pauseProject" text="PAUSE PROJECT"/>
+        <text name="ec_continueProject" text="CONTINUE PROJECT"/>
+        <text name="ec_modeChanged" text="Construction mode changed to: %s"/>
+        <text name="ec_close" text="Close"/>
+        <text name="ec_buildingName" text="Building"/>
+        <text name="ec_monthsRemaining" text="Months Remaining"/>
+        <text name="ec_status_active" text="Active"/>
+        <text name="ec_status_paused" text="Paused"/>
+        <text name="ec_setting_disabled" text="Disabled"/>
+        <text name="ec_setting_enabled" text="Enabled"/>
+        <text name="setting_ec_section" text="Everything Constructable"/>
+        <text name="setting_ec_constructionEnabled" text="Construction Projects"/>
+        <text name="setting_ec_constructionEnabled_tooltip" text="When enabled, placing buildings creates a multi-phase construction project. When disabled, buildings are placed instantly as per the base game."/>
+        <text name="setting_ec_labourFraction" text="Labour Cost Fraction"/>
+        <text name="setting_ec_labourFraction_tooltip" text="Percentage of total building cost allocated to labour. The deposit is deducted from this amount, and the remainder is paid over the construction phases. Higher values mean less material is needed but more cash is spent directly."/>
+        <text name="setting_ec_materialSupplyBonus" text="Material Supply Bonus"/>
+        <text name="setting_ec_materialSupplyBonus_tooltip" text="Bonus applied when you supply materials yourself. A higher bonus means fewer materials are required to cover the material cost."/>
+        <text name="ec_cannotDeleteFence" text="Construction fences cannot be removed while a project is active."/>
+        <text name="permission_ec_ecSettings" text="Change Construction Settings"/>
+        <text name="ec_brush_initial" text="initial"/>
+        <text name="ec_brush_duration" text="Duration:"/>
+        <text name="ec_brush_months" text="%d months"/>
+        <text name="setting_ec_resourceWeight_BOARDS" text="Boards Budget Share"/>
+        <text name="setting_ec_resourceWeight_BOARDS_tooltip" text="How much of the material budget is covered by Boards. Higher values mean more of the total cost is covered by Boards. Set to 0 to exclude. If all are 0, the budget is split equally."/>
+        <text name="setting_ec_resourceWeight_PLANKS" text="Planks Budget Share"/>
+        <text name="setting_ec_resourceWeight_PLANKS_tooltip" text="How much of the material budget is covered by Planks. Higher values mean more of the total cost is covered by Planks. Set to 0 to exclude. If all are 0, the budget is split equally."/>
+        <text name="setting_ec_resourceWeight_WOODBEAM" text="Wood Beam Budget Share"/>
+        <text name="setting_ec_resourceWeight_WOODBEAM_tooltip" text="How much of the material budget is covered by Wood Beams. Higher values mean more of the total cost is covered by Wood Beams. Set to 0 to exclude. If all are 0, the budget is split equally."/>
+        <text name="setting_ec_resourceWeight_CEMENT" text="Cement Budget Share"/>
+        <text name="setting_ec_resourceWeight_CEMENT_tooltip" text="How much of the material budget is covered by Cement. Higher values mean more of the total cost is covered by Cement. Set to 0 to exclude. If all are 0, the budget is split equally."/>
+        <text name="setting_ec_resourceWeight_PREFABWALL" text="Prefab Wall Budget Share"/>
+        <text name="setting_ec_resourceWeight_PREFABWALL_tooltip" text="How much of the material budget is covered by Prefab Walls. Higher values mean more of the total cost is covered by Prefab Walls. Set to 0 to exclude. If all are 0, the budget is split equally."/>
+        <text name="setting_ec_resourceWeight_CEMENTBRICKS" text="Cement Bricks Budget Share"/>
+        <text name="setting_ec_resourceWeight_CEMENTBRICKS_tooltip" text="How much of the material budget is covered by Cement Bricks. Higher values mean more of the total cost is covered by Cement Bricks. Set to 0 to exclude. If all are 0, the budget is split equally."/>
+        <text name="setting_ec_resourceWeight_ROOFPLATES" text="Roof Plates Budget Share"/>
+        <text name="setting_ec_resourceWeight_ROOFPLATES_tooltip" text="How much of the material budget is covered by Roof Plates. Higher values mean more of the total cost is covered by Roof Plates. Set to 0 to exclude. If all are 0, the budget is split equally."/>
+        <text name="setting_ec_resourceWeight_WATER" text="Water Budget Share"/>
+        <text name="setting_ec_resourceWeight_WATER_tooltip" text="How much of the material budget is covered by Water. Higher values mean more of the total cost is covered by Water. Set to 0 to exclude. If all are 0, the budget is split equally."/>
+        <text name="setting_ec_resourceWeight_CONSTRUCTIONGRAVEL" text="Construction Gravel Budget Share"/>
+        <text name="setting_ec_resourceWeight_CONSTRUCTIONGRAVEL_tooltip" text="How much of the material budget is covered by Construction Gravel. Higher values mean more of the total cost is covered by Construction Gravel. Set to 0 to exclude. If all are 0, the budget is split equally."/>
+        <text name="setting_ec_resourceWeight_GRAVEL" text="Gravel Budget Share"/>
+        <text name="setting_ec_resourceWeight_GRAVEL_tooltip" text="How much of the material budget is covered by Gravel. Higher values mean more of the total cost is covered by Gravel. Set to 0 to exclude. If all are 0, the budget is split equally."/>
+        <text name="setting_ec_resourceWeight_STONE" text="Stones Budget Share"/>
+        <text name="setting_ec_resourceWeight_STONE_tooltip" text="How much of the material budget is covered by Stones. Higher values mean more of the total cost is covered by Stones. Set to 0 to exclude. If all are 0, the budget is split equally."/>
+        <text name="setting_ec_resourceWeight_CRUSHEDSTONE" text="Crushed Stone Budget Share"/>
+        <text name="setting_ec_resourceWeight_CRUSHEDSTONE_tooltip" text="How much of the material budget is covered by Crushed Stone. Higher values mean more of the total cost is covered by Crushed Stone. Set to 0 to exclude. If all are 0, the budget is split equally."/>
+        <text name="ec_fillType_WATER" text="Water"/>
+        <text name="ec_fillType_CONSTRUCTIONGRAVEL" text="Construction Gravel"/>
+        <text name="ec_fillType_GRAVEL" text="Gravel"/>
+        <text name="ec_fillType_CRUSHEDSTONE" text="Crushed Stone"/>
+        <text name="ec_fillType_STONE" text="Stones"/>
+    </texts>
+</l10n>
